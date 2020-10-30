@@ -1,5 +1,5 @@
 <h2> Face-Detection-with-Intel-OPENVINO </h2>
-Face-Detection Application demonstrates how to create a smart video IoT solution using Intel® hardware and software tools(OPENVINO). The app will detect faces of people in a designated area.
+Face-Detection Application demonstrates how to create a smart video IoT solution using Intel® hardware and software tools[OPENVINO](https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html). The app will detect faces of people in a designated area.
 
 
   | Details            |              |
