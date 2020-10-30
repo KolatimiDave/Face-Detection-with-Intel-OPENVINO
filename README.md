@@ -1,4 +1,4 @@
-<h2> Face-Detection-with-Intel-OPENVINO <h2>
+<h2> Face-Detection-with-Intel-OPENVINO </h2>
 Face-Detection Application demonstrates how to create a smart video IoT solution using Intel® hardware and software tools(OPENVINO). The app will detect faces of people in a designated area.
 
 
@@ -23,7 +23,6 @@ Specify which model to download with `--name`.
   ```
   sudo ./downloader.py --name face-detection-adas-0001
   ```
-   ```
 Specify which directory to store model's .xml and .bin file:
 - To download model in a specific directory, run the following command:
 
@@ -50,6 +49,7 @@ python src/main.py -v cam -m ./intel/face-detection-adas-0001/FP16/face-detectio
 ```
 python src/main.py -v cam -m ./intel/face-detection-adas-0001/FP16/face-detection-adas-0001.xml -d GPU
 ```
+<br>
 **Note:** The Intel® Neural Compute Stick can only run FP16 models. The model that is passed to the application, through the `-m <path_to_model>` command-line argument, must be of data type FP16.<br>
 
 <h3> Running on Intel® Neural Compute Stick </h3>
