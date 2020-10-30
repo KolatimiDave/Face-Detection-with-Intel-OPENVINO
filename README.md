@@ -11,7 +11,7 @@ The DNN model used in this application is an Intel® optimized model that is par
 ```/opt/intel/openvino/deployment_tools/intel_models/face-detection-adas-0001```
 
 <h3> Downloading Pretrained Model </h3>
-Go to the **model downloader** directory present inside Intel® Distribution of OpenVINO™ toolkit:
+Go to the <b>model downloader</b> directory present inside Intel® Distribution of OpenVINO™ toolkit:
 Depending on your operating sysytem, the file path may be different.
 
   ```
@@ -50,7 +50,7 @@ python src/main.py -v cam -m ./intel/face-detection-adas-0001/FP16/face-detectio
 python src/main.py -v cam -m ./intel/face-detection-adas-0001/FP16/face-detection-adas-0001.xml -d GPU
 ```
 <br>
-**Note:** The Intel® Neural Compute Stick can only run FP16 models. The model that is passed to the application, through the `-m <path_to_model>` command-line argument, must be of data type FP16.<br>
+<b>Note:</b> The Intel® Neural Compute Stick can only run FP16 models. The model that is passed to the application, through the `-m <path_to_model>` command-line argument, must be of data type FP16.<br>
 
 <h3> Running on Intel® Neural Compute Stick </h3>
 ```
